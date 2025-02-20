@@ -9,4 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php wp_mav_menu(array("theme-location"=>"primary")); ?>
     
+
