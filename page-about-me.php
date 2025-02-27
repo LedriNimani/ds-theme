@@ -5,9 +5,11 @@
 
 <?php   get_header();?>
 
+<div class="container">
 
+<div class="first">
+<h1>  About page posts  </h1>
 
-<h1> Hello </h1>
 <?php  
   if(have_posts()):
     while(have_posts()): the_post();
@@ -24,7 +26,13 @@
 
 <?php endwhile; ?>
 <?php endif;?>
+</div>
+
+<div class="second">
+  <h1> Sidebar   </h1>
+</div>
 
 
+</div>
 
 <?php   get_footer();?>

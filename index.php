@@ -11,7 +11,8 @@
 <h2><?php the_title(); ?></h2>
 
 
-<small><?php the_time('Y/m/d')?></small>
+<small class="post-categories"><?php the_time('Y/m/d')?></small>
+<?php   ?>
 
 <p><?php   the_content(); ?></p>
 

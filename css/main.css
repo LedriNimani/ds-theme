@@ -1,0 +1,13 @@
+.container{
+
+    list-style-type: none;
+    display: none;
+
+}
+
+.first{
+    width: 70%;
+}
+.second{
+    width: 30%;
+}
