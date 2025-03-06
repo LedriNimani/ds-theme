@@ -27,5 +27,43 @@
    add_theme_support("post-thumbnails");
 
 
+   function themename_widgets_init(){
+      register_sidebar(array(
+
+         'name' => __('Primary Sidebar','theme_name'),
+         'id' => 'sidebar_1',
+         'before_widgets' => '<aside id="%1$s" class="%2$s">',
+         'after_widgets' => '</aside>',
+         'before_title' => '<h3 class="widget_title"',
+         'after_title'  => '</h3>'
+
+
+
+
+      ));
+
+      register_sidebar(array(
+
+         'name' => __('Secondary Sidebar','theme_name'),
+         'id' => 'sidebar_2',
+         'before_widgets' => '<ul><li id="%1$s" class="%2$s">',
+         'after_widgets' => '</li></ul>',
+         'before_title' => '<h3 class="widget_title"',
+         'after_title'  => '</h3>'
+
+
+
+
+      ));
+
+
+ 
+
+
+
+   }
+   
+
+
 
 ?>
