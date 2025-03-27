@@ -64,7 +64,7 @@
 <div id="sidebar-primary" class="sidebar">
   <?php   if ( is_active_sidebar('primary')); ?>
   <?php   dynamic_sidebar('primary'); ?>
-  <?php    else: ?>
+  <?php    else  : ?>
     <!-- Add Some text or widgets -->
      <?php  endif; ?>
 </div>
